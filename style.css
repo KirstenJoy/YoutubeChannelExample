@@ -1,0 +1,260 @@
+body {
+    margin: 0px;
+    background-color: #d4f3ef;
+    text-align: center;
+    position: relative;
+}
+
+.header {
+    height: 300px;
+    position: relative;
+    background-image: url(Images/Header.jpg);
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 20%;
+    position: absolute;
+    margin-top: -1%;
+    left: 3%;
+}
+
+.plogo {
+    position: absolute;
+    margin-top: -1%;
+    padding: 10px;
+    left: 130%;
+    font-size: 30px;
+    color: #ee8572;
+}
+
+.social {
+    width: 50px;
+    height: 50px;
+    margin-top: -50px;
+    margin-right: -80px;
+    padding: 20px;
+}
+
+p,
+h2,
+h3 {
+    color: #ee8572;
+}
+
+a {
+    color: #ee8572;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.homes1 {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left: 100px;
+    top: 400px;
+}
+
+.homes2 {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    left: 1200px;
+    top: 900px;
+}
+
+.h2h {
+    position: absolute;
+    left: 500px;
+    top: 400px;
+}
+
+.phome {
+    position: absolute;
+    left: 480px;
+    top: 450px;
+}
+
+.phome1 {
+    position: absolute;
+    left: 130px;
+    top: 1100px;
+}
+
+.phome2 {
+    position: absolute;
+    left: 550px;
+    top: 1500px;
+}
+
+a:hover {
+    color: #63b7af;
+}
+
+.links {
+    position: absolute;
+    right: 10%;
+    margin-top: 5%;
+}
+
+.text1 {
+    font-size: 100px;
+    color: #ee8572;
+    padding: 0px;
+    margin: 0px;
+}
+
+.textarea {
+    padding-top: 60px;
+}
+
+.video1 {
+    grid-area: myArea;
+}
+
+.video2 {
+    margin: 27px !important;
+}
+
+.video4 {
+    margin: 15px !important;
+}
+
+.video5 {
+    margin-right: 560px !important;
+}
+
+.video6 {
+    position: absolute;
+    right: 77px;
+    margin-top: 15px !important;
+}
+
+.video7 {
+    margin: 15px !important;
+}
+
+.video8 {
+    margin-right: 560px !important;
+}
+
+.video9 {
+    position: absolute;
+    right: 75px;
+    margin-top: 15px !important;
+}
+
+.playlist4 {
+    position: absolute;
+    left: 62px;
+}
+
+.playlist5 {
+    position: absolute;
+    left: 648px;
+}
+
+.playlist6 {
+    position: absolute;
+    right: 130px;
+}
+
+.grid-container {
+    display: grid;
+    grid: 'myArea myArea . . .' 'myArea myArea . . .';
+    grid-gap: 10px;
+    margin: 50px;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 30px;
+    width: 550px;
+    height: 430px;
+    margin: auto;
+    box-shadow: 5px 10px #888888;
+}
+
+.vid1 {
+    padding-top: 20px;
+}
+
+.vid2 {
+    padding-top: 20px;
+    margin-bottom: -20px;
+}
+
+.vid3 {
+    padding-top: 20px;
+}
+
+.vid4 {
+    padding-top: 20px;
+}
+
+.vid5 {
+    padding-top: 20px;
+    margin-bottom: -20px;
+}
+
+.vid6 {
+    padding-top: 20px;
+}
+
+.vid7 {
+    padding-top: 20px;
+}
+
+.vid8 {
+    padding-top: 20px;
+}
+
+.vid9 {
+    padding-top: 20px;
+}
+
+.play1 {
+    padding-top: 20px;
+}
+
+.play2 {
+    padding-top: 20px;
+}
+
+.play3 {
+    padding-top: 20px;
+}
+
+.play4 {
+    padding-top: 20px;
+}
+
+.play5 {
+    padding-top: 20px;
+}
+
+.play6 {
+    padding-top: 20px;
+}
+
+.footerp {
+    position: absolute;
+    bottom: -550px;
+    left: 800px;
+}
+
+.footerph {
+    position: absolute;
+    top: 1700px;
+    left: 800px;
+}
+
+.footers {
+    position: absolute;
+    bottom: -80px;
+}
