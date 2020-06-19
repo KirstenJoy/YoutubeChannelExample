@@ -69,7 +69,7 @@ a {
     position: absolute;
     width: 700px;
     height: 400px;
-    left: 1700px;
+    left: 1400px;
     top: 900px;
 }
 
@@ -88,14 +88,14 @@ a {
 
 .phome1 {
     position: absolute;
-    left: 410px;
+    left: 110px;
     top: 1100px;
     font-size: 35px;
 }
 
 .phome2 {
     position: absolute;
-    left: 550px;
+    left: 250px;
     top: 1500px;
     font-size: 40px;
 }
@@ -162,34 +162,37 @@ a:hover {
 .playlist1 {
     position: absolute;
     left: 280px !important;
+    top: 450px;
 }
 
 .playlist2 {
     position: absolute;
     left: 890px !important;
+    top: 450px;
 }
 
 .playlist3 {
     position: absolute;
     right: 350px !important;
+    top: 450px;
 }
 
 .playlist4 {
     position: absolute;
     left: 280px !important;
-    top: 850px !important;
+    top: 950px !important;
 }
 
 .playlist5 {
     position: absolute;
     left: 890px !important;
-    top: 850px !important;
+    top: 950px !important;
 }
 
 .playlist6 {
     position: absolute;
     right: 350px !important;
-    top: 850px !important;
+    top: 950px !important;
 }
 
 .grid-container {
@@ -280,7 +283,7 @@ a:hover {
 .footerph {
     position: absolute;
     top: 1800px;
-    left: 950px;
+    left: 550px;
     font-size: 30px;
 }
 
