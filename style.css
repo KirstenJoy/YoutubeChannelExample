@@ -69,7 +69,7 @@ a {
     position: absolute;
     width: 630px;
     height: 330px;
-    left: 1300px;
+    left: 1274px;
     top: 1000px;
 }
 
@@ -88,7 +88,7 @@ a {
 
 .phome1 {
     position: absolute;
-    left: 40px;
+    left: 20px;
     top: 1100px;
     font-size: 35px;
 }
@@ -161,37 +161,37 @@ a:hover {
 
 .playlist1 {
     position: absolute;
-    left: 50px !important;
+    left: 20px !important;
     top: 470px;
 }
 
 .playlist2 {
     position: absolute;
-    left: 680px !important;
+    left: 590px !important;
     top: 470px;
 }
 
 .playlist3 {
     position: absolute;
-    right: 510px !important;
+    right: 670px !important;
     top: 470px;
 }
 
 .playlist4 {
     position: absolute;
-    left: 50px !important;
+    left: 20px !important;
     top: 970px !important;
 }
 
 .playlist5 {
     position: absolute;
-    left: 680px !important;
+    left: 590px !important;
     top: 970px !important;
 }
 
 .playlist6 {
     position: absolute;
-    right: 510px !important;
+    right: 670px !important;
     top: 970px !important;
 }
 
@@ -277,7 +277,7 @@ a:hover {
 .footerp {
     position: absolute;
     bottom: -1000px !important;
-    left: 830px !important;
+    left: 730px !important;
     top: 1450px;
 }
 
@@ -491,7 +491,7 @@ a:hover {
     }
     .playlist1 {
         margin-top: 30px !important;
-        margin-left: -10px !important;
+        margin-left: 15px !important;
     }
     .play1 {
         width: 300px;
@@ -501,7 +501,7 @@ a:hover {
         font-size: 15px;
     }
     .playlist2 {
-        margin-left: -640px !important;
+        margin-left: -555px !important;
         margin-top: 310px !important;
     }
     .play2 {
@@ -513,7 +513,7 @@ a:hover {
         font-size: 15px;
     }
     .playlist3 {
-        margin-right: -476px !important;
+        margin-right: -630px !important;
         margin-top: 590px !important;
     }
     .play3 {
@@ -526,7 +526,7 @@ a:hover {
     }
     .playlist4 {
         margin-top: 400px !important;
-        margin-left: -10px !important;
+        margin-left: 15px !important;
     }
     .play4 {
         width: 300px;
@@ -537,7 +537,7 @@ a:hover {
         font-size: 15px;
     }
     .playlist5 {
-        margin-left: -640px !important;
+        margin-left: -555px !important;
         margin-top: 680px !important;
     }
     .play5 {
@@ -549,7 +549,7 @@ a:hover {
         font-size: 15px;
     }
     .playlist6 {
-        margin-right: -480px !important;
+        margin-right: -630px !important;
         margin-top: 970px !important;
     }
     .play6 {
