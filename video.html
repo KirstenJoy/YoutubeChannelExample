@@ -1,84 +1,541 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.0.1">
     <link rel="shortcut icon" href="Images/brain.svg" type="image/x-icon">
+    <title>Video </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="album.css" rel="stylesheet">
 </head>
 
 <body>
-    <!--The header -->
-    <div class="header">
-        <div class="textarea ">
-            <h1 class="text1 ">Kirsten Jardine</h1>
-        </div>
-        <div class="links">
-            <a href="https://www.facebook.com/"><img src="Images/facebook.svg" alt="" class="social"></a>
-            <a href="https://www.instagram.com/"><img src="Images/instagram.svg" alt="" class="social"></a>
-            <a href="https://twitter.com/"><img src="Images/twitter.svg" alt="" class="social"></a>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark special-color-dark">
+
+        <!-- Navbar brand -->
+        <a class="navbar-brand text-uppercase" href="index.html">KJ</a>
+
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto">
+
+                <!-- Features -->
+                <li class="nav-item dropdown mega-dropdown active">
+                    <a class="nav-link dropdown-toggle text-uppercase" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Features
+            <span class="sr-only">(current)</span>
+          </a>
+                    <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-5 px-3 text-white" aria-labelledby="navbarDropdownMenuLink2" style="color:#ee8572 !important">
+                        <div class="row">
+                            <div class="col-md-6 col-xl-3 sub-menu mb-xl-0 mb-4">
+                                <h6 class="sub-title text-uppercase font-weight-bold white-text">Featured</h6>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Lorem ipsum dolor sit amet
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Consectetur adipiscing elit
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Sed do eiusmod tempor incididunt
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Ut labore et dolore magna
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Ut enim ad minim veniam
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-xl-3 sub-menu mb-xl-0 mb-4">
+                                <h6 class="sub-title text-uppercase font-weight-bold white-text">Related</h6>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Quis nostrud exercitation
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Duis aute irure dolor in
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Laboris nisi ut aliquip ex ea commodo consequat
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Reprehenderit in voluptate
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Esse cillum dolore eu fugiat nulla pariatur
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-xl-3 sub-menu mb-md-0 mb-xl-0 mb-4">
+                                <h6 class="sub-title text-uppercase font-weight-bold white-text">Design</h6>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Excepteur sint occaecat
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Sunt in culpa qui officia
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Sed ut perspiciatis unde omnis iste natus error
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Mollit anim id est laborum
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Accusantium doloremque laudantium
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-xl-3 sub-menu mb-0">
+                                <h6 class="sub-title text-uppercase font-weight-bold white-text">Programming</h6>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Totam rem aperiam eaque
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Beatae vitae dicta sun
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Quae ab illo inventore veritatis et quasi architecto
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Nemo enim ipsam voluptatem
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Neque porro quisquam est
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- Technology -->
+                <li class="nav-item dropdown mega-dropdown">
+                    <a class="nav-link dropdown-toggle text-uppercase" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Technology</a>
+                    <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-5 px-3" aria-labelledby="navbarDropdownMenuLink3">
+                        <div class="row">
+                            <div class="col-md-12 col-xl-4 sub-menu mb-xl-0 mb-4">
+                                <h6 class="sub-title text-uppercase font-weight-bold white-text">Featured</h6>
+                                <!--Featured image-->
+                                <a href="#!" class="view overlay z-depth-1 p-0 mb-2">
+                                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/8-col/img%20(37).jpg" class="img-fluid" alt="First sample image">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                                <a class="news-title font-weight-bold pl-0" href="#!">Lorem ipsum dolor sit</a>
+                                <p class="font-small text-uppercase white-text">
+                                    <i class="fas fa-clock-o pr-2" aria-hidden="true"></i>July 17, 2017 / <i class="far fa-comments px-1" aria-hidden="true"></i> 20
+                                </p>
+                            </div>
+                            <div class="col-md-6 col-xl-4 sub-menu mb-md-0 mb-4">
+                                <h6 class="sub-title text-uppercase font-weight-bold white-text">Related</h6>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Quis nostrud exercitation
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Duis aute irure dolor in
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Laboris nisi ut aliquip ex ea commodo consequat
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Reprehenderit in voluptate
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Esse cillum dolore eu fugiat nulla pariatur
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-xl-4 sub-menu mb-0">
+                                <h6 class="sub-title text-uppercase font-weight-bold white-text">Design</h6>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Excepteur sint occaecat
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Sunt in culpa qui officia
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Sed ut perspiciatis unde omnis iste natus error
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Mollit anim id est laborum
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Accusantium doloremque laudantium
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- Lifestyle -->
+                <li class="nav-item dropdown mega-dropdown">
+                    <a class="nav-link dropdown-toggle text-uppercase" id="navbarDropdownMenuLink4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lifestyle</a>
+                    <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-5 px-3" aria-labelledby="navbarDropdownMenuLink4">
+                        <div class="row">
+                            <div class="col-md-6 col-xl-3 sub-menu mb-4">
+                                <h6 class="sub-title text-uppercase font-weight-bold white-text">Featured</h6>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Lorem ipsum dolor sit amet
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Consectetur adipiscing elit
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Sed do eiusmod tempor incididunt
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Ut labore et dolore magna
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Ut enim ad minim veniam
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-xl-3 sub-menu mb-4 mb-xl-0">
+                                <h6 class="sub-title text-uppercase font-weight-bold white-text">Related</h6>
+                                <!--Featured image-->
+                                <a href="#!" class="view overlay z-depth-1 p-0 mb-2">
+                                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/6-col/img%20(43).jpg" class="img-fluid" alt="First sample image">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                                <a class="news-title font-weight-bold pl-0" href="#!">Lorem ipsum dolor sit</a>
+                                <p class="font-small text-uppercase white-text">
+                                    <i class="fas fa-clock-o pr-2" aria-hidden="true"></i>July 17, 2017 / <i class="far fa-comments px-1" aria-hidden="true"></i> 20
+                                </p>
+                            </div>
+                            <div class="col-md-6 col-xl-3 sub-menu mb-md-0 mb-xl-0 mb-4">
+                                <h6 class="sub-title text-uppercase font-weight-bold white-text">Design</h6>
+                                <!--Featured image-->
+                                <a href="#!" class="view overlay z-depth-1 p-0 mb-2">
+                                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/6-col/img%20(44).jpg" class="img-fluid" alt="First sample image">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                                <a class="news-title font-weight-bold pl-0" href="#!">Ut labore et dolore magna</a>
+                                <p class="font-small text-uppercase white-text">
+                                    <i class="fas fa-clock-o pr-2" aria-hidden="true"></i>July 16, 2017 / <i class="far fa-comments px-1" aria-hidden="true"></i> 25
+                                </p>
+                            </div>
+                            <div class="col-md-6 col-xl-3 sub-menu mb-0">
+                                <h6 class="sub-title text-uppercase font-weight-bold white-text">Programming</h6>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Totam rem aperiam eaque
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Beatae vitae dicta sun
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Quae ab illo inventore veritatis et quasi architecto
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Nemo enim ipsam voluptatem
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-item pl-0" href="#!">
+                                            <i class="fas fa-caret-right pl-1 pr-3"></i>Neque porro quisquam est
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+            <!-- Links -->
+
+            <!-- Search form -->
+            <form class="form-inline">
+                <div class="md-form my-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                </div>
+            </form>
 
         </div>
-    </div>
+        <!-- Collapsible content -->
 
-    <!--navigation bar-->
-    <div class="navbar">
-        <div class="logo">
-            <a href="index.html">
-                <img src="Images/brain.svg" alt="" class="logo">
-            </a>
-            <h4 class="plogo">Kirsten Jardine</h4>
-        </div>
-        <div class="menu">
-            <a href="index.html" class="menu">Home</a>
-            <a href="video.html" class="menu">Video</a>
-            <a href="playlist.html" class="menu">Playlist</a>
+    </nav>
+    <!-- Navbar -->
 
+    <!--Main content-->
+    <main role="main">
+
+        <section class="jumbotron text-center text-white" style="background-image: url(Images/cover1.jpg);">
+            <div class="container text-white">
+                <h1 class="hh">Kirsten Jardine</h1>
+                <p class="lead text-muted ">Here is a collection of a wide range of technology fields. The hope to help expand your mind on how specific technologies work. </p>
+                <p>
+                    <a href="index.html" class="btn btn-danger my-2">Home</a>
+                    <a href="playlist.html" class="btn btn-outline-danger my-2">Playlist</a>
+                </p>
+            </div>
+        </section>
+
+        <div class="album py-5 bg-light">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <div class="bd-placeholder-img card-img-top" width="100%" height="225">
+                                <iframe class="vid1" width="100%" height="225" src=" https://www.youtube.com/embed/OgvpxFu5k7M " frameborder="0 " allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
+                            </div>
+                            <div class="card-body ">
+                                <p class="card-text ">Tech under $50 - June 2020</p>
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <small class="text-muted ">581,885 views•6 Jun 2020</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="card mb-4 shadow-sm ">
+                            <div class="bd-placeholder-img card-img-top " width="100% " height="225 ">
+                                <iframe class="vid2" width="100% " height="225 " src="https://www.youtube.com/embed/f9rGP4DQpws" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="card-body ">
+                                <p class="card-text ">The Most OVERLOOKED Aspect of Improving your Desk Setup</p>
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <small class="text-muted ">241,935 views•5 Jun 2020</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="card mb-4 shadow-sm ">
+                            <div class="bd-placeholder-img card-img-top " width="100% " height="225 ">
+                                <iframe class="vid3" width="100% " height="225 " src="https://www.youtube.com/embed/k08oW0LitBI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="card-body ">
+                                <p class="card-text ">I Made the Ultimate Tech Kit</p>
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <small class="text-muted ">577,021 views•17 Aug 2019  </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 ">
+                        <div class="card mb-4 shadow-sm ">
+                            <div class="bd-placeholder-img card-img-top " width="100% " height="225 ">
+                                <iframe class="vid4" width="100% " height="225 " src="https://www.youtube.com/embed/LXPhYyLiWrI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="card-body ">
+                                <p class="card-text ">NEW iPhone SE (2020)</p>
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <small class="text-muted ">799,834 views•22 Apr 2020</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="card mb-4 shadow-sm ">
+                            <div class="bd-placeholder-img card-img-top " width="100% " height="225 ">
+                                <iframe class="vid5 " width="100% " height="225 " src="https://www.youtube.com/embed/T52cEofR8WI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="card-body ">
+                                <p class="card-text ">Free Energy Using Speaker Magnet Technology For 2019</p>
+                                <div class="d-flex justify-content-between align-items-center ">
+
+                                    <small class="text-muted ">23,036,131 views•26 Feb 2019</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="card mb-4 shadow-sm ">
+                            <div class="bd-placeholder-img card-img-top " width="100% " height="225 ">
+                                <iframe class="vid6" width="100% " height="225 " src="https://www.youtube.com/embed/FV2tMP37ygs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="card-body ">
+                                <p class="card-text ">Talking Tech and 2020 with Bill Gates!</p>
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <small class="text-muted ">2,985,194 views•14 Feb 2020</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 ">
+                        <div class="card mb-4 shadow-sm ">
+                            <div class="bd-placeholder-img card-img-top " width="100% " height="225 ">
+                                <iframe class="vid7" width="100% " height="225 " src="https://www.youtube.com/embed/Y9rPdpBiMQQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="card-body ">
+                                <p class="card-text ">5 Things the Tesla Model S is MISSING</p>
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <small class="text-muted ">151,507 views•6 Feb 2020</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="card mb-4 shadow-sm ">
+                            <div class="bd-placeholder-img card-img-top " width="100% " height="225 ">
+                                <iframe class="vid8" width="100% " height="225 " src="https://www.youtube.com/embed/Oa9aWdcCC4o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="card-body ">
+                                <p class="card-text ">The World in 2050: Future Technology</p>
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <small class="text-muted ">808,339 views•27 Feb 2020</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="card mb-4 shadow-sm ">
+                            <div class="bd-placeholder-img card-img-top " width="100% " height="225 ">
+                                <iframe class="vid9" width="100% " height="225 " src="https://www.youtube.com/embed/mpw94HgC4kc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="card-body ">
+                                <p class="card-text ">Dell XPS 15 9500 Full REVIEW</p>
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <small class="text-muted ">226,938 views•5 Jun 2020</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <!--This is the code for the first three videos in the grid-->
-    <div class="grid-container">
-        <div class="video1"><iframe class="vid1" width="450" height="315" src="https://www.youtube.com/embed/OgvpxFu5k7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p class="pvid1">Tech under $50 - June 2020</p>
+
+    </main>
+
+    <footer class="text-muted ">
+        <div class="container ">
+            <p class="float-right ">
+                <a href="video.html">Back to top</a>
+            </p>
+            <p>copyright&copy; All rights reserved</p>
+            <p> k.jardine@gmail.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
         </div>
-        <div class="video2"><iframe class="vid2" width="450" height="315" src="https://www.youtube.com/embed/f9rGP4DQpws" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p class="pvid2">The Most OVERLOOKED Aspect of Improving your Desk Setup</p>
-        </div>
-        <div class="video3"><iframe class="vid3" width="450" height="315" src="https://www.youtube.com/embed/k08oW0LitBI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p class="pvid3">I Made the Ultimate Tech Kit</p>
-        </div>
-    </div>
-    <!--This is the code for the videos in the second line of the grid-->
-    <div class="grid-container">
-        <div class="video4"><iframe class="vid4" width="450" height="315" src="https://www.youtube.com/embed/LXPhYyLiWrI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p class="pvid4">NEW iPhone SE (2020)</p>
-        </div>
-        <div class="video5"><iframe class="vid5 " width="450" height="315" src="https://www.youtube.com/embed/T52cEofR8WI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p class="pvid5">Free Energy Using Speaker Magnet Technology For 2019</p>
-        </div>
-        <div class="video6"><iframe class="vid6" width="450" height="315" src="https://www.youtube.com/embed/FV2tMP37ygs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p class="pvid6">Talking Tech and 2020 with Bill Gates!</p>
-        </div>
-    </div>
-    <!--This is the code for the videos in the third line of the grid-->
-    <div class="grid-container">
-        <div class="video7"><iframe class="vid7" width="450" height="315" src="https://www.youtube.com/embed/Y9rPdpBiMQQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p class="pvid7">5 Things the Tesla Model S is MISSING</p>
-        </div>
-        <div class="video8"><iframe class="vid8" width="450" height="315" src="https://www.youtube.com/embed/Oa9aWdcCC4o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p class="pvid8">The World in 2050: Future Technology</p>
-        </div>
-        <div class="video9"><iframe class="vid9" width="450" height="315" src="https://www.youtube.com/embed/mpw94HgC4kc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p class="pvid9">Dell XPS 15 9500 Full REVIEW</p>
-        </div>
-    </div>
-    <!--This is the footer-->
-    <div class="footerv">
-        <p>k.jardine96@gmail.com</p>
-        <h4>copyright© 2020. All rights reserved</h4>
-    </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script>
+        window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js "><\/script>')
+    </script>
+    <script src="../assets/dist/js/bootstrap.bundle.js "></script>
 </body>
 
 </html>
